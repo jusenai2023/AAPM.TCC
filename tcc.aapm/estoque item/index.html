@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAPM SENAI - Estoque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>AAPM<br>SENAI</h1>
+            <p>Associação de Alunos, Pais e Mestres</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Estoque</a></li>
+                <li><a href="#">Armários</a></li>
+                <li><a href="#">Estacionamento</a></li>
+                <li><a href="#">Comprovantes</a></li>
+            </ul>
+        </nav>
+        <button class="sair">Sair</button>
+    </header>
+    <main>
+        <section class="adicionar-item">
+            <h2>Adicionar item</h2>
+            <div class="input-group">
+                <label for="codigo-produto">Código do produto</label>
+                <input type="text" id="codigo-produto" placeholder="Digite aqui">
+            </div>
+            <div class="input-group quantidade">
+                <label for="quantidade">Quantidade</label>
+                <div class="botoes">
+                    <button>-</button>
+                    <span id="quantidade">000</span>
+                    <button>+</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="tabela">
+            <div class="busca">
+                <input type="text" placeholder="Pesquisar">
+                <button>Filtro</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Produto</th>
+                        <th>Valor</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#001</td>
+                        <td>Apontador colorido</td>
+                        <td>R$ 2,00</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>#002</td>
+                        <td>Apontador com depósito</td>
+                        <td>R$ 2,00</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>#003</td>
+                        <td>Apontador metálico</td>
+                        <td>R$ 2,00</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>#004</td>
+                        <td>Borracha Faber Castel</td>
+                        <td>R$ 5,00</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>#005</td>
+                        <td>Borracha leo&leo</td>
+                        <td>R$ 1,00</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>#006</td>
+                        <td>Borracha Mercur</td>
+                        <td>R$ 2,00</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>#007</td>
+                        <td>Caderno (uma matéria)</td>
+                        <td>R$ 8,50</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>#008</td>
+                        <td>Calculadora</td>
+                        <td>R$ 10,00</td>
+                        <td>20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

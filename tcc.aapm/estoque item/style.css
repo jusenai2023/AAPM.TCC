@@ -1,0 +1,30 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  header .logo h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+  header .logo p {
+    font-size: 0.8em
+  }
