@@ -1,0 +1,171 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Estilos da barra lateral */
+.sidebar {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    width: 170px; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.logo {
+    width: 100%; /* Ajuste conforme necessário */
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav_btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn_fixo {
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.novo{
+    margin-right: 24px;
+    width: 80px;
+}
+
+.active {
+    background-color: #D00C0C;
+}
+
+.sair {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 15rem;
+}
+
+#container_nav_bar{
+    background-color: #DDE0E3;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+#titleArmario{
+    margin-left: 30px;
+}
+
+
+#imgUser{
+    padding: 20px;
+}
+
+/* Estilos do conteúdo principal */
+.content {
+    padding: 10px;
+    flex: 1; 
+}
+
+h1 {
+    color: #333;
+    margin-left: 5px;
+}
+
+#fundo_table {
+    background-color: #DDE0E3; /* Cor de fundo cinza */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%; /* A tabela ocupa toda a largura disponível */
+    border-collapse: collapse; /* Remove o espaçamento entre células */
+}
+    
+#titulos_table th { /* Cor de fundo dos títulos */
+    padding: 5px; /* Padding para os títulos */
+    border-bottom: 1px solid black;
+}
+
+#dados_table {
+    text-align: center; /* Centraliza o texto dos dados */
+    border-bottom: 1px solid black;
+}
+
+.linha {
+    width: 95%; /* Largura da linha */
+    height: 2px; /* Espessura da linha */
+    background-color: black; /* Cor da linha */
+    margin: 3px auto; /* Centraliza a linha */
+}
+
+#input_buscar {
+    border-radius: 20px;
+    background-color: #DDE0E3;
+    width: 250px;
+    box-shadow: 2px 1px 5px 2px #0000005d;
+    border: none;
+}
+
+
+#btn_filtro {
+    margin-left: 30px;
+    width: 100px;
+}
+
+.imgFiltro{
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    margin-left: 30px;
+}
+
+.toolbar input {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.toolbar button {
+    background-color: #007bff; 
+    color: #182045;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #DDE0E3;
+    box-shadow: 2px 1px 5px 2px #0000005d;
+}

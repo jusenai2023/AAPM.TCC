@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAPM SENAI - Armários</title>
+    <link rel="stylesheet" href="armariosPrincipal.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="logoAAPM_fundoPreto.png" alt="Logo AAPM SENAI" class="logo"> 
+            <nav id="nav_btn">
+                <ul>
+                    <li id="btn_fixo"><a href="#">Home</a></li>
+                    <br>
+                    <li id="btn_fixo"><a href="#">Estoque</a></li>
+                    <br>
+                    <li id="btn_fixo" class="active"><a href="#">Armários</a></li>
+                    <br>
+                    <li id="btn_fixo"><a href="#">Estacionamento</a></li>
+                    <br>
+                    <li id="btn_fixo"><a href="#">Comprovantes</a></li>
+                    <br>
+                    <li id=""><button class="sair">Sair</button></li>
+                    
+                </ul>
+            </nav>
+            
+        </aside>
+
+        <main class="content">
+            <div id="container_nav_bar">
+                <h1 id="titleArmario">Armários</h1>
+                <img src="./logo_user.png" id="imgUser" alt="" style="height: 40px;">
+            </div>
+            <br>
+            <div id="fundo_table">
+                <div class="toolbar">
+                    <div id="input_buscar_filtro">
+                        <input type="text" placeholder="Pesquisar" id="input_buscar">
+                        <button id="btn_filtro">
+                            Filtro
+                            <img src="./Vector.png" class="imgFiltro">
+                        </button>
+                    </div>
+
+                    <div>
+                        <button class="novo">+ novo</button>
+                    </div>
+                </div>
+                <br>
+                <table>
+                    <thead>
+                        <tr id="titulos_table">
+                            <th>Número</th>
+                            <th>Aluno</th>
+                            <th>Curso</th>
+                            <th>Turma</th>
+                            <th>Data</th>
+                            <th>Status</th> 
+                        </tr>     
+                    </thead>
+                    <tbody>
+
+                        
+
+                        <tr id="dados_table">   
+                            <td id="numero_armario">109</td>
+                            <td id="nome_aluno">Pedro Cabral</td>
+                            <td id="nome_curso">Metalurgia</td>
+                            <td id="turma">MT3</td>
+                            <td id="data_reserva">17/03/2024</td>
+                            <td id="status"><span class="status ok">✓</span></td>
+                        </tr>
+
+                       
+
+                        <tr id="dados_table">
+                            <td id="numero_armario">110</td>
+                            <td id="nome_aluno">Maria Silva</td>
+                            <td id="nome_curso">Informática</td>
+                            <td id="turma">IT1</td>
+                            <td id="data_reserva">18/03/2024</td>
+                            <td id="status"><span class="status ok">✓</span></td>
+                        </tr>
+
+                       
+
+                        <tr id="dados_table">
+                            <td id="numero_armario">110</td>
+                            <td id="nome_aluno">Maria Silva</td>
+                            <td id="nome_curso">Informática</td>
+                            <td id="turma">IT1</td>
+                            <td id="data_reserva">18/03/2024</td>
+                            <td id="status"><span class="status ok">✓</span></td>
+                        </tr>
+
+                       
+
+                        <tr id="dados_table">
+                            <td id="numero_armario">110</td>
+                            <td id="nome_aluno">Maria Silva</td>
+                            <td id="nome_curso">Informática</td>
+                            <td id="turma">IT1</td>
+                            <td id="data_reserva">18/03/2024</td>
+                            <td id="status"><span class="status ok">✓</span></td>
+                        </tr>
+
+                       
+
+                        <tr id="dados_table">
+                            <td id="numero_armario">110</td>
+                            <td id="nome_aluno">Maria Silva</td>
+                            <td id="nome_curso">Informática</td>
+                            <td id="turma">IT1</td>
+                            <td id="data_reserva">18/03/2024</td>
+                            <td id="status"><span class="status ok">✓</span></td>
+                        </tr>
+
+
+
+                        
+            
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
